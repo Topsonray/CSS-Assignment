@@ -1,0 +1,38 @@
+body {
+    font-family: 'poppins', sans-serif;
+    font-size: 1rem;
+    font height: 1.5;
+    text-align: center;
+    margin:0;
+    color: white;
+}
+
+#main {
+    background:rgb(138, 7, 7);
+    border-radius: 5px;
+    padding: 15px;
+
+}
+
+#main {
+    margin: 0;
+}
+.top{
+  color: #fff;
+}
+
+h1 {
+    margin-bottom:0;
+}
+
+.para {
+    color: #c7c2c2;
+}
+
+.fig {
+    background-image: url(1.jpg);
+    background-blend-mode: overlay;
+    background-size:cover;
+    background color:rgb(124,21,21);
+    padding:10px;
+}
