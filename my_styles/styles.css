@@ -3,12 +3,12 @@ body {
     font-size: 1rem;
     font height: 1.5;
     text-align: center;
-    margin:0;
-    color: white;
+    margin: 0;
+    color:white;
 }
 
 #main {
-    background:rgb(138, 7, 7);
+    background: rgb(138, 7, 7);
     border-radius: 5px;
     padding: 15px;
 
@@ -17,12 +17,14 @@ body {
 #main {
     margin: 0;
 }
-.top{
-  color: #fff;
+
+.top {
+    color: #fff;
 }
 
 h1 {
-    margin-bottom:0;
+    font-size: 4rem;
+    margin-bottom: 0;
 }
 
 .para {
@@ -32,7 +34,40 @@ h1 {
 .fig {
     background-image: url(1.jpg);
     background-blend-mode: overlay;
-    background-size:cover;
-    background color:rgb(124,21,21);
-    padding:10px;
+    background-size: cover;
+    background-color: rgb(124, 21, 21);
+    padding: 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+#caption {
+    font-size: 1.4rem;
+    margin: 15px 0 5px 0;
+    color: #fff;
+}
+#tribute {
+    color: #fff;
+}
+
+.sub {
+    margin: 50 0;
+    text-align: center;
+}
+
+ul {
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    line-height: 1.6;
+}
+blockquote {
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto 50px auto;
+    text-align: left;
 }
